@@ -11,7 +11,7 @@ describe("Test http handler", function()
 			name = 'bat-hosts'
 		}
 		http_handler.loadEndpoints(endpoints)
-		local result = http_handler.getEndpoints()
+		local result = http_handler.endpoints
 		assert.are.same(result[0].name, 'bat-hosts')
 	end)
 

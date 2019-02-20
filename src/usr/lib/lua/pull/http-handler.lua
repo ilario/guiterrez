@@ -10,10 +10,6 @@ function http_handler.loadEndpoints(endpoints)
 	end
 end
 
-function http_handler.getEndpoints()
-	return http_handler.endpoints
-end
-
 function http_handler.req(request)
 	local handler = nil
 	for _, endpoint in pairs(http_handler.endpoints) do
@@ -22,13 +18,9 @@ function http_handler.req(request)
 			return handler.req(request)
 		end
 	end
-
 	if handler == nil then
 		return { error = true }
 	end
-
-	return nil
-
 end
 
 return http_handler

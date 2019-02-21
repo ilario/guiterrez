@@ -1,4 +1,4 @@
-#!/usr/lib/lua
+#!/usr/bin/lua
 
 http_handler = {
 	endpoints = {}

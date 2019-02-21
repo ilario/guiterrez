@@ -12,8 +12,9 @@ end
 
 function http_handler.req(request)
 	local handler = nil
+	local name = request.section:gsub("[\.\\/]", '')
 	for _, endpoint in pairs(http_handler.endpoints) do
-		if request.section == endpoint.name then
+		if name == endpoint.name then
 			handler = require(endpoint.filePath)
 			return handler.req(request)
 		end

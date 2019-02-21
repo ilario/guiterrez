@@ -1,8 +1,7 @@
 # Gutierrez - _el Alfrel del sur_
 
-<p align="center">
-  <img width="500" height="462" src="https://cdn3.imggmi.com/uploads/2019/2/21/dbddd5b5a7625d1431458c0d684a75d0-full.jpg
-">
-</p>
-
 Modular system to share data tables in mesh networks, in a distributed and eventually consistent way (I hope).
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/10773838/53134276-48b7ad00-3555-11e9-8e4c-3a826340d392.jpg" alt="Gutierrez, mayordomo en Hijitus (by Ferre)">
+</p>

@@ -1,4 +1,4 @@
-# Gutierrez - _el Alfrel del sur_
+# Gutierrez - _el [Alfred](https://www.open-mesh.org/projects/alfred/wiki) del sur_
 
 Modular system to share data tables in mesh networks, in a distributed and eventually consistent way (I hope).
 

@@ -11,4 +11,4 @@ Modular system to share data tables in mesh networks, in a distributed and event
 To run the tests it is necessary to have installed busted (https://olivinelabs.com/busted).
 Then you can run the tests:
 
-> busted tests/\*_/_.test.lua
+> busted tests/\*\*/\*.test.lua
